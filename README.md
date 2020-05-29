@@ -7,6 +7,8 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a>
   <br /><br />
     A custom control to enter a four digit code usually in cases of authentication.
+  <br />
+    NOW WITH COPY PASTE OPTIMIZATION
 </p>
 
 <img src="https://raw.githubusercontent.com/mukeshsolanki/android-otpview-pinview/master/screenshots/ss1.png" width="270" height="480" /> &nbsp;&nbsp;
@@ -38,7 +40,7 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-        implementation 'com.github.mukeshsolanki:android-otpview-pinview:<latest-version>'
+        implementation 'com.github.yonasputraa:android-otpview-pinview:master-SNAPSHOT'
 }
 ```
 
