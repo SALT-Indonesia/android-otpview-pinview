@@ -234,6 +234,7 @@ public class OtpView extends AppCompatEditText {
         } else {
             super.setCursorVisible(false);
         }
+
         if (text.length() == otpViewItemCount && onOtpCompletionListener != null) {
             onOtpCompletionListener.onOtpCompleted(text.toString());
         }
