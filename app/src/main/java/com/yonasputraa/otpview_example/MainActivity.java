@@ -1,12 +1,12 @@
-package com.mukesh.otpview_example;
+package com.yonasputraa.otpview_example;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.mukesh.OnOtpCompletionListener;
-import com.mukesh.OtpView;
+import com.yonasputraa.OnOtpCompletionListener;
+import com.yonasputraa.OtpView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
     OnOtpCompletionListener {

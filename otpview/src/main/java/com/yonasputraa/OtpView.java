@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mukesh;
+package com.yonasputraa;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -139,7 +139,7 @@ public class OtpView extends AppCompatEditText {
     setMaxLength(otpViewItemCount);
     paint.setStrokeWidth(lineWidth);
     setupAnimator();
-    super.setCursorVisible(false);
+    super.setCursorVisible(true);
     setTextIsSelectable(false);
   }
 
@@ -147,6 +147,7 @@ public class OtpView extends AppCompatEditText {
   public boolean isSuggestionsEnabled() {
     return true;
   }
+
 
   @Override
   public void setTypeface(Typeface tf, int style) {
