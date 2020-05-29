@@ -144,6 +144,11 @@ public class OtpView extends AppCompatEditText {
   }
 
   @Override
+  public boolean isSuggestionsEnabled() {
+    return true;
+  }
+
+  @Override
   public void setTypeface(Typeface tf, int style) {
     super.setTypeface(tf, style);
   }
