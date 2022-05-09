@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.yonasputraa.OnOtpCompletionListener;
-import com.yonasputraa.OtpView;
+import com.github.saltindonesia.OnOtpCompletionListener;
+import com.github.saltindonesia.OtpView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
     OnOtpCompletionListener {

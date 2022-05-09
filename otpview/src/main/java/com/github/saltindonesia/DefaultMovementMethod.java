@@ -1,4 +1,4 @@
-package com.yonasputraa;
+package com.github.saltindonesia;
 
 /*
  * Copyright 2018 Mukesh Solanki
