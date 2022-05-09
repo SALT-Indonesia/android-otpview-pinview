@@ -40,7 +40,7 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-        implementation 'id.salt.android:android-otpview-pinview:master-SNAPSHOT'
+        implementation 'com.github.saltindonesia:android-otpview-pinview:master-SNAPSHOT'
 }
 ```
 
