@@ -1,12 +1,12 @@
-package com.yonasputraa.otpview_example;
+package id.salt.otpview_example;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.github.saltindonesia.OnOtpCompletionListener;
-import com.github.saltindonesia.OtpView;
+import id.salt.otpview.OnOtpCompletionListener;
+import id.salt.otpview.OtpView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
     OnOtpCompletionListener {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.saltindonesia;
+package id.salt.otpview;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -48,7 +48,7 @@ import androidx.appcompat.widget.AppCompatEditText;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.view.ViewCompat;
 
-import com.yonasputraa.R;
+import id.salt.otpview.R;
 
 public class OtpView extends AppCompatEditText {
 

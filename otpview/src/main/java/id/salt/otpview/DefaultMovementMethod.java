@@ -1,4 +1,4 @@
-package com.github.saltindonesia;
+package id.salt.otpview;
 
 /*
  * Copyright 2018 Mukesh Solanki

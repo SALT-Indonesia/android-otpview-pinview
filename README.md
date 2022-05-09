@@ -40,7 +40,7 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-        implementation 'com.github.saltindonesia:android-otpview-pinview:master-SNAPSHOT'
+        implementation 'id.salt.android:android-otpview-pinview:master-SNAPSHOT'
 }
 ```
 
@@ -49,7 +49,7 @@ Okay seems like you integrated the library in your project but **how do you use 
 
 ```xml
 .....
- <com.github.saltindonesia.OtpView
+ <id.salt.otpview.OtpView
       android:id="@+id/otp_view"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
