@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+//apply plugin: 'maven-publish'
 
 group = 'com.github.SALT-Indonesia'
-//version = '2.2.1'
+version = '2.2.2'
 
 android {
   compileSdkVersion 29
@@ -11,7 +11,7 @@ android {
     minSdkVersion 16
     targetSdkVersion 29
     versionCode 11
-    versionName "2.2.1"
+    versionName "2.2.2"
   }
   buildTypes {
     release {
@@ -32,16 +32,16 @@ dependencies {
   implementation 'androidx.appcompat:appcompat:1.1.0'
 }
 
-afterEvaluate {
-  publishing {
-    publications {
-      release(MavenPublication) {
+//afterEvaluate {
+//  publishing {
+//    publications {
+//      release(MavenPublication) {
 //        from components.release
-
-        groupId = 'com.github.SALT-Indonesia'
-        artifactId = 'android-otpview-pinview'
-        version = '2.2.1'
-      }
-    }
-  }
-}
+//
+//        groupId = 'com.github.SALT-Indonesia'
+//        artifactId = 'android-otpview-pinview'
+//        version = '2.2.1'
+//      }
+//    }
+//  }
+//}
